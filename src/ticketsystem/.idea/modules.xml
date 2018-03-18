@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/ticketsystem.iml" filepath="$PROJECT_DIR$/ticketsystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticketsystem-biz/ticketsystem-biz.iml" filepath="$PROJECT_DIR$/ticketsystem-biz/ticketsystem-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticketsystem-dal/ticketsystem-dal.iml" filepath="$PROJECT_DIR$/ticketsystem-dal/ticketsystem-dal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ticketsystem-web/ticketsystem-web.iml" filepath="$PROJECT_DIR$/ticketsystem-web/ticketsystem-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-server/ticketsystem-server.iml" filepath="$PROJECT_DIR$/ticketsystem-server/ticketsystem-server.iml" />
     </modules>
   </component>
 </project>

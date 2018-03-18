@@ -9,6 +9,7 @@
         <module name="flyloong-common" />
         <module name="ticketsystem-biz" />
         <module name="ticketsystem-dal" />
+        <module name="ticketsystem-server" />
         <module name="ticketsystem-web" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="ticketsystem" target="1.5" />
       <module name="ticketsystem-biz" target="1.5" />
       <module name="ticketsystem-dal" target="1.5" />
+      <module name="ticketsystem-server" target="1.5" />
       <module name="ticketsystem-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>

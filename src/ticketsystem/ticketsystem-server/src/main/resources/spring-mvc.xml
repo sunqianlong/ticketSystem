@@ -8,10 +8,30 @@
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
     <!--启用spring的一些annotation -->
     <context:annotation-config/>
-    <!-- 配置注解驱动 可以将request参数与绑定到controller参数上 -->
-    <mvc:annotation-driven/>
+
+       <!-- 返回ResponseBody响应类型 -->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>text/html;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 
     <context:property-placeholder location="classpath:config.properties"/>
+
+    <!-- 拦截器 -->
+    <mvc:interceptors>
+        <!-- 公共拦截器 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.flyloong.ticketsystem.interceptor.TicketServerInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
     <context:component-scan base-package="com.flyloong.ticketsystem.controller"/>
 
