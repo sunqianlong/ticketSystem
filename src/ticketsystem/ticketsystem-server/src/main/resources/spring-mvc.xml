@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+    <!--启用spring的一些annotation -->
+    <context:annotation-config/>
+    <!-- 配置注解驱动 可以将request参数与绑定到controller参数上 -->
+    <mvc:annotation-driven/>
+
+    <context:property-placeholder location="classpath:config.properties"/>
+
+    <context:component-scan base-package="com.flyloong.ticketsystem.controller"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <!--<property name="suffix" value=".jsp"/>-->
+        <property name="suffix" value=""/>
+        <property name="exposeContextBeansAsAttributes" value="true"/>
+    </bean>
+    <!-- 根目录'/'对应页面 -->
+    <!--<mvc:view-controller path="/" view-name="/index.jsp"/>-->
+
+    <!-- thymeleaf视图 -->
+    <!--<bean id="templateResolver" class="org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver">-->
+        <!--<property name="order" value="0"/>-->
+        <!--<property name="prefix" value="${zheng.ui.path}"/>-->
+        <!--<property name="suffix" value=""/>-->
+        <!--<property name="templateMode" value="HTML"/>-->
+        <!--<property name="cacheable" value="false"/>-->
+        <!--<property name="characterEncoding" value="UTF-8"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="templateEngine" class="org.thymeleaf.spring4.SpringTemplateEngine">-->
+        <!--<property name="templateResolver" ref="templateResolver"/>-->
+        <!--<property name="enableSpringELCompiler" value="true"/>-->
+    <!--</bean>-->
+    <!--<bean class="org.thymeleaf.spring4.view.ThymeleafViewResolver">-->
+        <!--<property name="templateEngine" ref="templateEngine"/>-->
+        <!--<property name="characterEncoding" value="UTF-8"/>-->
+        <!--<property name="viewNames" value="/${app.name}/*"/>-->
+    <!--</bean>-->
+
+</beans>
