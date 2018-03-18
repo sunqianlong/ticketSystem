@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flyloong-common/flyloong-common.iml" filepath="$PROJECT_DIR$/flyloong-common/flyloong-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem.iml" filepath="$PROJECT_DIR$/ticketsystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-biz/ticketsystem-biz.iml" filepath="$PROJECT_DIR$/ticketsystem-biz/ticketsystem-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-dal/ticketsystem-dal.iml" filepath="$PROJECT_DIR$/ticketsystem-dal/ticketsystem-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-web/ticketsystem-web.iml" filepath="$PROJECT_DIR$/ticketsystem-web/ticketsystem-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -10,6 +10,6 @@ public class IndexController {
 
     @RequestMapping(value = "/helloworld")
     public String welcome(){
-        return "success";
+        return "success.jsp";
     }
 }

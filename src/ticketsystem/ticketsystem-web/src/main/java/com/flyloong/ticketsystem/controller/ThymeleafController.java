@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ThymeleafController extends BaseController {
     @RequestMapping(value = "/thymeleaf")
     public String  to(){
-        return thymeleaf("index");
+        String url=thymeleaf("/login");
+        return url;
     }
 }
