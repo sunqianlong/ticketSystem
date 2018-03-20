@@ -1,4 +1,4 @@
-package com.flyloong.ticketsystem.rpc.service.impl;
+package com.flyloong.ticketsystem.rpc;
 
 public class TicketSystemRpcServiceApplication {
 }

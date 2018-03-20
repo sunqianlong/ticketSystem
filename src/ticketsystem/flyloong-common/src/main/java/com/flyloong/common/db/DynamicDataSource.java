@@ -1,4 +1,4 @@
-package com.zheng.common.db;
+package com.flyloong.common.db;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

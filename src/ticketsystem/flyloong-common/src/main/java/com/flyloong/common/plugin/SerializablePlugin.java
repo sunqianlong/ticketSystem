@@ -1,11 +1,15 @@
-package com.zheng.common.plugin;
-
-import org.mybatis.generator.api.IntrospectedTable;
-import org.mybatis.generator.api.PluginAdapter;
-import org.mybatis.generator.api.dom.java.*;
+package com.flyloong.common.plugin;
 
 import java.util.List;
 import java.util.Properties;
+
+import org.mybatis.generator.api.IntrospectedTable;
+import org.mybatis.generator.api.PluginAdapter;
+import org.mybatis.generator.api.dom.java.Field;
+import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;
+import org.mybatis.generator.api.dom.java.InnerClass;
+import org.mybatis.generator.api.dom.java.JavaVisibility;
+import org.mybatis.generator.api.dom.java.TopLevelClass;
 
 /**
  * Example类和model类实现序列化插件

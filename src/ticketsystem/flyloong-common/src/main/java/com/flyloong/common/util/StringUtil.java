@@ -1,10 +1,9 @@
-package com.zheng.common.util;
-
-
-import org.apache.commons.lang.StringUtils;
+package com.flyloong.common.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.apache.commons.lang.StringUtils;
 
 /**
  * String 工具类

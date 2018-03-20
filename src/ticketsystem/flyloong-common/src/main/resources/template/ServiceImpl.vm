@@ -1,7 +1,7 @@
 package ${package_name}.rpc.service.impl;
 
-import com.zheng.common.annotation.BaseService;
-import com.zheng.common.base.BaseServiceImpl;
+import com.flyloong.common.annotation.BaseService;
+import com.flyloong.common.base.BaseServiceImpl;
 import ${package_name}.dao.mapper.${model}Mapper;
 import ${package_name}.dao.model.${model};
 import ${package_name}.dao.model.${model}Example;
@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
 * ${model}Service实现
-* Created by shuzheng on ${ctime}.
+* Created by flyloong on ${ctime}.
 */
 @Service
 @Transactional

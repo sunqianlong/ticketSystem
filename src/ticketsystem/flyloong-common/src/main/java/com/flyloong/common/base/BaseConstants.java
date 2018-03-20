@@ -1,4 +1,4 @@
-package com.zheng.common.base;
+package com.flyloong.common.base;
 
 /**
  * 全局常量

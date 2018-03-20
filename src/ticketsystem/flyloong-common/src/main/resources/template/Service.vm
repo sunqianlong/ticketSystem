@@ -1,12 +1,12 @@
 package ${package_name}.rpc.api;
 
-import com.zheng.common.base.BaseService;
+import com.flyloong.common.base.BaseService;
 import ${package_name}.dao.model.${model};
 import ${package_name}.dao.model.${model}Example;
 
 /**
 * ${model}Service接口
-* Created by shuzheng on ${ctime}.
+* Created by flyloong on ${ctime}.
 */
 public interface ${model}Service extends BaseService<${model}, ${model}Example> {
 

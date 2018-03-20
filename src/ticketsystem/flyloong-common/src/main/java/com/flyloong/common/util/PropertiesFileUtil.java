@@ -1,4 +1,4 @@
-package util;
+package com.flyloong.common.util;
 
 import java.util.Date;
 import java.util.HashMap;

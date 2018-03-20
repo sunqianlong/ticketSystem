@@ -1,8 +1,8 @@
-package com.zheng.common.base;
-
-import org.apache.ibatis.annotations.Param;
+package com.flyloong.common.base;
 
 import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
 
 /**
  * BaseService接口

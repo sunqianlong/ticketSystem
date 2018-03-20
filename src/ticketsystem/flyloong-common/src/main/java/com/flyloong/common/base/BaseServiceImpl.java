@@ -1,16 +1,16 @@
-package com.zheng.common.base;
-
-import com.github.pagehelper.PageHelper;
-import com.zheng.common.db.DataSourceEnum;
-import com.zheng.common.db.DynamicDataSource;
-import com.zheng.common.util.SpringContextUtil;
-import org.apache.commons.lang.StringUtils;
-import org.apache.ibatis.annotations.Param;
+package com.flyloong.common.base;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
+
+import com.flyloong.common.db.DataSourceEnum;
+import com.flyloong.common.db.DynamicDataSource;
+import com.flyloong.common.util.SpringContextUtil;
+import com.github.pagehelper.PageHelper;
+import org.apache.commons.lang.StringUtils;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * 实现BaseService抽象类

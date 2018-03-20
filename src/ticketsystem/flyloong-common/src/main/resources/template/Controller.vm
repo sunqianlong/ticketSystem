@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * ${modelname}controller
- * Created by shuzheng on ${ctime}.
+ * Created by flyloong on ${ctime}.
  */
 @Controller
-@RequestMapping("/manage")
+@RequestMapping("/manage")+
 @Api(value = "${modelname}控制器", description = "${modelname}管理")
 public class ${model}Controller extends BaseController {
 

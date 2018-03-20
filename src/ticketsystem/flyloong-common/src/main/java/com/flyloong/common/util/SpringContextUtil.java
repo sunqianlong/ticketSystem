@@ -1,10 +1,10 @@
-package com.zheng.common.util;
+package com.flyloong.common.util;
+
+import java.util.Map;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-
-import java.util.Map;
 
 /**
  * 资源文件读取工具

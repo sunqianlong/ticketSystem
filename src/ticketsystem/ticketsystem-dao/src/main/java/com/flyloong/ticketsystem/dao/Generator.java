@@ -1,4 +1,4 @@
-package com.flyloong.ticketsystem.dal;
+package com.flyloong.ticketsystem.dao;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ import com.flyloong.common.util.PropertiesFileUtil;
 public class Generator {
 
 	// 根据命名规范，只修改此常量值即可
-	private static String MODULE = "flyloong-ticketsystem";
+	private static String MODULE = "ticketsystem";
 	private static String DATABASE = "flyloong";
 	private static String TABLE_PREFIX = "fl_";
 	private static String PACKAGE_NAME = "com.flyloong.ticketsystem";

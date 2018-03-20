@@ -6,10 +6,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
-    <!--ÆôÓÃspringµÄÒ»Ð©annotation -->
+    <!--ï¿½ï¿½ï¿½ï¿½springï¿½ï¿½Ò»Ð©annotation -->
     <context:annotation-config/>
 
-       <!-- ·µ»ØResponseBodyÏìÓ¦ÀàÐÍ -->
+       <!-- ï¿½ï¿½ï¿½ï¿½ResponseBodyï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ -->
     <mvc:annotation-driven>
         <mvc:message-converters>
             <bean class="org.springframework.http.converter.StringHttpMessageConverter">
@@ -24,9 +24,9 @@
 
     <context:property-placeholder location="classpath:config.properties"/>
 
-    <!-- À¹½ØÆ÷ -->
+    <!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
     <mvc:interceptors>
-        <!-- ¹«¹²À¹½ØÆ÷ -->
+        <!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <bean class="com.flyloong.ticketsystem.interceptor.TicketServerInterceptor"></bean>
@@ -41,10 +41,10 @@
         <property name="suffix" value=""/>
         <property name="exposeContextBeansAsAttributes" value="true"/>
     </bean>
-    <!-- ¸ùÄ¿Â¼'/'¶ÔÓ¦Ò³Ãæ -->
+    <!-- ï¿½ï¿½Ä¿Â¼'/'ï¿½ï¿½Ó¦Ò³ï¿½ï¿½ -->
     <!--<mvc:view-controller path="/" view-name="/index.jsp"/>-->
 
-    <!-- thymeleafÊÓÍ¼ -->
+    <!-- thymeleafï¿½ï¿½Í¼ -->
     <!--<bean id="templateResolver" class="org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver">-->
         <!--<property name="order" value="0"/>-->
         <!--<property name="prefix" value="http://localhost:1000"/>-->

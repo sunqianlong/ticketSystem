@@ -9,10 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>ticketsystem-dal</module>
+        <module>ticketsystem-dao</module>
         <module>ticketsystem-biz</module>
         <module>ticketsystem-server</module>
         <module>flyloong-common</module>
+        <module>ticketsystem-rpc-api</module>
+        <module>ticketsystem-rpc-service</module>
     </modules>
     <dependencies>
         <!-- 日志 -->

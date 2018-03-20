@@ -1,6 +1,11 @@
-package com.zheng.common.util;
+package com.flyloong.common.util;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -48,7 +53,7 @@ public class JdbcUtil {
 
 	// 查询多条记录
 	public List<Map> selectByParams(String sql, List params) throws SQLException {
-		List<Map> list = new ArrayList<> ();
+		List<Map> list = new ArrayList<Map> ();
 		int index = 1;
 		pstmt = conn.prepareStatement(sql);
 		if (null != params && !params.isEmpty()) {

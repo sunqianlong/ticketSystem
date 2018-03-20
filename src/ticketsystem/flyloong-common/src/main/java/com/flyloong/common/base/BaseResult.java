@@ -1,4 +1,4 @@
-package com.zheng.common.base;
+package com.flyloong.common.base;
 
 /**
  * 统一返回结果类

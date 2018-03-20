@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/flyloong-common/flyloong-common.iml" filepath="$PROJECT_DIR$/flyloong-common/flyloong-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticketsystem.iml" filepath="$PROJECT_DIR$/ticketsystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticketsystem-biz/ticketsystem-biz.iml" filepath="$PROJECT_DIR$/ticketsystem-biz/ticketsystem-biz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ticketsystem-dal/ticketsystem-dal.iml" filepath="$PROJECT_DIR$/ticketsystem-dal/ticketsystem-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-dao/ticketsystem-dal.iml" filepath="$PROJECT_DIR$/ticketsystem-dao/ticketsystem-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-rpc-api/ticketsystem-rpc-api.iml" filepath="$PROJECT_DIR$/ticketsystem-rpc-api/ticketsystem-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticketsystem-rpc-service/ticketsystem-rpc-service.iml" filepath="$PROJECT_DIR$/ticketsystem-rpc-service/ticketsystem-rpc-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ticketsystem-server/ticketsystem-server.iml" filepath="$PROJECT_DIR$/ticketsystem-server/ticketsystem-server.iml" />
     </modules>
   </component>

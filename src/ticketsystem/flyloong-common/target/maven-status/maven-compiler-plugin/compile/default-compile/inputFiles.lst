@@ -1,1 +1,8 @@
-D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\util\PropertiesFileUtil.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\util\PropertiesFileUtil.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\util\MybatisGeneratorUtil.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\util\VelocityUtil.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\plugin\CommentGenerator.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\util\AESUtil.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\plugin\SerializablePlugin.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\util\JdbcUtil.java
+D:\OpenSource\ticketSystem\src\ticketsystem\flyloong-common\src\main\java\com\flyloong\common\util\StringUtil.java

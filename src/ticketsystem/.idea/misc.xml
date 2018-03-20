@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ticketsystem-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketsystem-dao/pom.xml" />
       </list>
     </option>
   </component>

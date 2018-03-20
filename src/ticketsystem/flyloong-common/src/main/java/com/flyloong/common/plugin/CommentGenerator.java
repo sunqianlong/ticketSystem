@@ -1,4 +1,4 @@
-package com.zheng.common.plugin;
+package com.flyloong.common.plugin;
 
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;

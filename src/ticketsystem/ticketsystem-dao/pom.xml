@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ticketsystem-dal</artifactId>
+    <artifactId>ticketsystem-dao</artifactId>
     <dependencies>
         <dependency>
             <groupId>com-flyloong</groupId>
