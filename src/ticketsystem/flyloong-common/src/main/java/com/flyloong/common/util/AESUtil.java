@@ -135,7 +135,7 @@ public class AESUtil {
 
     public static void main(String[] args) {
         String[] keys = {
-                "Windows2008", "123456"
+                "Windows2008", "123456","my_redis"
         };
         System.out.println("key | AESEncode | AESDecode");
         for (String key : keys) {
