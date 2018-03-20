@@ -1,7 +1,9 @@
 package com.flyloong.ticketsystem.controller;
 
+import com.flyloong.ticketsystem.rpc.api.FlProvinceService;
 import com.flyloong.ticketsystem.vo.PageResult;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,6 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 public class IndexController {
 
+    @Autowired
+    FlProvinceService flProvinceService;
     @RequestMapping(value = "/helloworld")
     @ResponseBody
     public PageResult welcome(){
