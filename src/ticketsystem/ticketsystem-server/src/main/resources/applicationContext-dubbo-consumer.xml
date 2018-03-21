@@ -7,9 +7,9 @@
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd ">
 
-    <dubbo:application name="zheng-upms-server"/>
+    <dubbo:application name="flyloong-ticket-rpc-service"/>
 
-    <dubbo:registry file="./zheng-upms-server-dubbo.cache" address="zookeeper://zkserver:2181"/>
+    <dubbo:registry file="./flyloong-ticket-server-dubbo.cache" address="zookeeper://192.168.88.128:2181"/>
 
     <!-- 订阅服务 -->
     <dubbo:consumer check="false"/>

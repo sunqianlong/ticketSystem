@@ -28,6 +28,7 @@
         <mybatis-pagehelper.version>5.0.1</mybatis-pagehelper.version>
         <mybatis-generator.version>1.3.5</mybatis-generator.version>
         <mybatis-ehcache.version>1.0.0</mybatis-ehcache.version>
+        <ehcache.version>2.10.0</ehcache.version>
         <spring.version>4.3.7.RELEASE</spring.version>
         <shiro.version>1.3.2</shiro.version>
     </properties>
@@ -98,6 +99,24 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.0.14</version>
+        </dependency>
+
+        <!-- 缓存 -->
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>${ehcache.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-ehcache</artifactId>
+            <version>${mybatis-ehcache.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>net.sf.ehcache</groupId>
+                    <artifactId>ehcache-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- servlet -->
         <dependency>

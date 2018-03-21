@@ -9,7 +9,7 @@ public class TicketSystemRpcServiceApplication {
 
     public static void main(String[] args) {
         LOGGER.info(">>>>> ticketsystem-rpc-service 正在启动 <<<<<");
-        new ClassPathXmlApplicationContext("classpath:META-INF/spring/*.xml");
+        new ClassPathXmlApplicationContext("classpath:META-INF.spring/*.xml");
         LOGGER.info(">>>>> ticketsystem-rpc-service 启动完成 <<<<<");
     }
 }

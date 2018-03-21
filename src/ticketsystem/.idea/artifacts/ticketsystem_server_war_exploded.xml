@@ -47,6 +47,8 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.14" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.10.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-ehcache:1.0.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.7.RELEASE" />

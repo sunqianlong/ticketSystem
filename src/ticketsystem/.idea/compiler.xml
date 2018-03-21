@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flyloong-common" />
-        <module name="ticketsystem-biz" />
         <module name="ticketsystem-dal" />
         <module name="ticketsystem-dao" />
         <module name="ticketsystem-rpc-api" />
