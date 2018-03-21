@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ThymeleafController extends BaseController {
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = "/")
     public String  to(){
-        String url=thymeleaf("/index");
+        String url=thymeleaf("/dictionary");
         return url;
     }
     //@RequestMapping(value = "/home")
