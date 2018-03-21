@@ -15,10 +15,17 @@
 
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <!-- 默认的spring配置文件是在WEB-INF下的applicationContext.xml -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
     <!--把applicationContext.xml加入到配置文件中-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:applicationContext.xml</param-value>
+        <param-value>
+            classpath*:applicationContext*.xml
+        </param-value>
     </context-param>
 
     <servlet-mapping>
