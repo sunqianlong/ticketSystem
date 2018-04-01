@@ -73,7 +73,7 @@ export const appRouter = [
                 path: '/dictionary',
                 title: '字典',
                 name: 'dictionary',
-                component: resolve => { require(['@/views/baseInfo/dictionary.vue'], resolve); }
+                component: resolve => { require(['@/views/dictionary/dictionary.vue'], resolve); }
             },
             {
                 path: '/log',
